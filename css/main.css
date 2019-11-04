@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.navigation-items {
+    margin-right: 15px; 
+}
+
+.navigation-items:last-child {
+    margin-right: auto;
+}
+
+button {
+    background-color: #540cfa;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #000;
+}
+
+
+.navigation-list {
+    display: flex;
+}
