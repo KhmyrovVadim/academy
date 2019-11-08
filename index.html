@@ -3,103 +3,87 @@
   <head>
     <meta charset="UTF-8">
     <title>ShowTrackr</title>
-    <link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <nav class="navigation">
-        <span>ShowTrackr</span>
+        <span class="logo">ShowTrackr</span>
         <ul class="navigation-list">
-        	<li class="navigation-items">Features</li>
+          <li class="navigation-items">Features</li>
           <li class="navigation-items">Community</li>
           <li class="navigation-items">Get Started</li>
           <li class="navigation-items">Community</li>
         </ul>
         <div>
-          <a href="https://lifehacker.ru/osx-terminal-redesign/" alt="авторизироваться" target="_blank">login</a>
-          <button class="button" href="https://lifehacker.ru/osx-terminal-redesign/" alt="начать" target="_blank">Get-started</a>
+          <a class="log-in" href="https://lifehacker.ru/osx-terminal-redesign/" alt="Log in" target="_blank">Log in</a>
+          <button class="button" href="https://lifehacker.ru/osx-terminal-redesign/" alt="Get started" target="_blank">Get started</a>
         </div>
       </nav>
 		</header>
 		<main>
-			<section>
-				<div>
-      		<h1>Track your shows automatically</h1>
-      		<p>With ShowTrackr you can track your favorite TV shows automatically, so you never loose track of your TV 
-						 shows ever again. 🍿</p>
+			<section class="home-first-sect">
+				<div class="home-first-sect-left">
+					<div class="home-first-sect-left-top" >
+      			<h1 class="h1">Track your shows automatically</h1>
+      			<p class="p-light">With ShowTrackr you can track your favorite TV shows automatically, so you never loose track of your TV 
+							 shows ever again. 🍿</p>
+						<div class="field">
+							<div class="outlined-field">
+									<label class="label">Email</label>
+									<input type="email" placeholder="your@email.com">
+							</div>
+							<button class="button-field">Start tracking</button>
+						</div>
+      		</div> 
+						<h5 class="h5">Compatible with</h5>
+        		<ul class="home-first-sect-icons-list">
+          		<li><img class="home-first-sect-icons-items" src="icon/netflix.svg" alt="логотип netflix" width="92.4px"></li>
+          		<li><img class="home-first-sect-icons-items" src="icon/apple.svg" alt="логотип apple" width="25.6px"></li>
+          		<li><img class="home-first-sect-icons-items" src="icon/android.svg" alt="логотип android" width="25.6px"></li>
+          		<li><img class="home-first-sect-icons-items" src="icon/windows.svg" alt="логотип windows" width="30px"></li>
+          		<li><img class="home-first-sect-icons-items" src="icon/synology.svg" alt="логотип synology" width="96.1px"></li>
+						</ul>
 				</div>
-				<div>
-					<input type="email" placeholder=your@email.com>
-					<button>Start tracking</button>
-				</div>
-      	<div> 
-					<span>Compatible with</span>
-        	<ul>
-          	<li><img src="icon/netflix.svg" alt="логотип netflix" width="100"></li>
-          	<li><img src="icon/apple.svg" alt="логотип apple" width="100"></li>
-          	<li><img src="icon/android.svg" alt="логотип android" width="100"></li>
-          	<li><img src="icon/windows.svg" alt="логотип windows" width="100"></li>
-          	<li><img src="icon/synology.svg" alt="логотип synology" width="100"></li>
-					</ul>
-				</div>
-				<div>
-					<img iphone-x-mockup src="img/iphone-x-mockup.svg" alt="Скрин iphone x" width="400">
+				<div class="home-first-sect-right">
+					<img src="img/iphone-x-mockup.png" srcset="img/iphone-x-mockup@2x.png 2x , img/iphone-x-mockup@3x.png 3x " alt="Скрин iphone x">
 				</div> 
 			</section>
 			<section>
-				<div>
+				<div class="home-second-sect">
         	<span class="items_title">Features</span>
         	<h2>Built and customized for your habits</h2>
-					<p>ShowTrackr’s built-in machine learning and context-aware features guarantee that all the notifications and 
+					<p class="p-h2">ShowTrackr’s built-in machine learning and context-aware features guarantee that all the notifications and 
 						 recommendations are always delivered to you in the perfect moment.</p>
 				</div>
-        <div>
+        <div class="unique-selling-proposition">
 					<div>
-						<img src="icon/rectangle_orange.svg" alt="Иконка Automated tracking" width="100">
-						<img src="icon/triangle.svg" alt="Иконка Automated tracking" width="100">
-					</div>
-					<div>
-          	<span>Automated tracking</span>
-						<p>Track your favorite shows automatically without switching between apps.</p>
+						<img class="form" id="square" src="icon/triangle.svg" alt="Иконка Automated tracking">
+						<h4>Automated tracking</h4>
+						<p class="p-h4">Track your favorite shows automatically without switching between apps.</p>
+						<button class="link">Learn more</button>
 					</div>
 					<div>
-						<button class="Link">Learn more</button>
-					</div>
-				</div>
-				<div>
-          <div>
-						<img src="icon/rectangle_orange.svg" alt="Иконка Machine learning" width="100"></li>
-						<img src="icon/shape.svg" alt="Иконка Machine learning" width="100"></li>
-					</div>
-					<div>	
+						<img id="square" src="icon/shape.svg" alt="Иконка Machine learning" width="100"></li>
 						<h4>Machine learning</h4>
-						<p class="h4">Get recommendations like never before, which are truly customized for your taste.</p>
+						<p class="p-h4">Get recommendations like never before, which are truly customized for your taste.</p>
+						<button class="link">Learn more</button>
 					</div>
 					<div>
-						<button class="Link">Learn more</button>
-					</div>
-				</div>
-				<div>
-					<div>
-							<img src="icon/rectangle_orange.svg" alt="Иконка Machine learning" width="100"></li>
-							<img src="icon/smart-notifications.svg" alt="Иконка Machine learning" width="100"></li>
-					</div>
-					<div>
+						<img id="square" src="icon/smart-notifications.svg" alt="Smart notifications" width="100"></li>
 						<h4>Smart notifications</h4>
-						<p class="h4">Receive smart notifications exactly at the right moments when you need them.</p>
-					</div>
-					<div>
-						<button class="Link">Learn more</button>
+						<p class="p-h4">Receive smart notifications exactly at the right moments when you need them.</p>
+						<button class="link">Learn more</button>
 					</div>
 				</div>
-				<div>
-				<ul>
-          <li><img src="img/black_mirror.png" alt="black mirror" width="200"></li>
-          <li><img src="img/stranger_things.png" alt="stranger things" width="200"></li>
-        	<li><img src="img/westworld.png" alt="westworld" width="200"></li>
-          <li><img src="img/house_of_cards.png" alt="house of cards" width="200"></li>
-          <li><img src="img/game_of_thrones.png" alt="game of thrones" width="200"></li>
-          <li><img src="img/murde.png" alt="murde" width="200"></li>
+				<ul class="movie-covers-list">
+          			<li><img src="img/black_mirror.png" alt="black mirror" width="200"></li>
+          			<li><img src="img/stranger_things.png" alt="stranger things" width="200"></li>
+          			<li><img src="img/westworld.png" alt="westworld" width="200"></li>
+          			<li><img src="img/house_of_cards.png" alt="house of cards" width="200"></li>
+          			<li><img src="img/game_of_thrones.png" alt="game of thrones" width="200"></li>
+          			<li><img src="img/murde.png" alt="murde" width="200"></li>
 				</ul>
 			</section>
 			<section>
@@ -127,10 +111,12 @@
 					<img web-app-mockup src="img/web-app-mockup.png" alt="Скрин вебсайта" width="700">  
 				</div>
 			</section>
-			<section>
+			<section class="home-second-sect">
 				<div>
-					<span>Get Started</span>
+					<span class="items_title">Get Started</span>
 					<h2>Start tracking your TV shows for free </h2>
+					<p class="p-h2">In order to start tracking your TV shows, all you have to do is enter your email address. 
+						Everything else will be taken care of by us. All you have to do is sit back, relax and enjoy your TV shows.</p>
 				</div>
 				<div>
 					<input type="email" placeholder=your@email.com>
