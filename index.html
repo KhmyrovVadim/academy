@@ -1,136 +1,183 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>ShowTrackr</title>
+   <head>
+      <meta charset="UTF-8">
+      <title>ShowTrackr</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/main.css">
-		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <nav class="navigation">
-        <span class="logo">ShowTrackr</span>
-        <ul class="navigation-list">
-          <li class="navigation-items">Features</li>
-          <li class="navigation-items">Community</li>
-          <li class="navigation-items">Get Started</li>
-          <li class="navigation-items">Community</li>
-        </ul>
-        <div>
-          <a class="log-in" href="https://lifehacker.ru/osx-terminal-redesign/" alt="Log in" target="_blank">Log in</a>
-          <button class="button" href="https://lifehacker.ru/osx-terminal-redesign/" alt="Get started" target="_blank">Get started</a>
-        </div>
-      </nav>
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900 &display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <nav class="navigation">
+				<span class="logo-show">Show<span class="logo-track">Track</span></span>
+            <ul class="navigation-list">
+               <li class="navigation-items">Features</li>
+               <li class="navigation-items">Community</li>
+               <li class="navigation-items">Get Started</li>
+            </ul>
+            <div>
+               <a class="log-in" href="https://lifehacker.ru/osx-terminal-redesign/" alt="Log in" target="_blank">Log in</a>
+               <button class="button-header" href="https://lifehacker.ru/osx-terminal-redesign/" alt="Get started" target="_blank">Get started</a>
+            </div>
+         </nav>
 		</header>
 		<main>
 			<section class="home-first-sect">
-				<div class="home-first-sect-left">
-					<div class="home-first-sect-left-top" >
-      			<h1 class="h1">Track your shows automatically</h1>
-      			<p class="p-light">With ShowTrackr you can track your favorite TV shows automatically, so you never loose track of your TV 
-							 shows ever again. 🍿</p>
+				<div class="container-home-first-sect">
+					<div class="home-first-sect-left">
+						<h1 class="h1">Track your shows automatically</h1>
+						<p class="p-light">With ShowTrackr you can track your favorite TV shows automatically, so you never loose track of your TV 
+									          shows ever again. 🍿</p>
 						<div class="field">
 							<div class="outlined-field">
-									<label class="label">Email</label>
-									<input type="email" placeholder="your@email.com">
+								<label class="label">Email</label>
+								<input class="input" type="email" placeholder="your@email.com">
 							</div>
-							<button class="button-field">Start tracking</button>
+						<button class="button-field">Start tracking</button>
 						</div>
-      		</div> 
-						<h5 class="h5">Compatible with</h5>
-        		<ul class="home-first-sect-icons-list">
-          		<li><img class="home-first-sect-icons-items" src="icon/netflix.svg" alt="логотип netflix" width="92.4px"></li>
-          		<li><img class="home-first-sect-icons-items" src="icon/apple.svg" alt="логотип apple" width="25.6px"></li>
-          		<li><img class="home-first-sect-icons-items" src="icon/android.svg" alt="логотип android" width="25.6px"></li>
-          		<li><img class="home-first-sect-icons-items" src="icon/windows.svg" alt="логотип windows" width="30px"></li>
-          		<li><img class="home-first-sect-icons-items" src="icon/synology.svg" alt="логотип synology" width="96.1px"></li>
-						</ul>
-				</div>
-				<div class="home-first-sect-right">
-					<img src="img/iphone-x-mockup.png" srcset="img/iphone-x-mockup@2x.png 2x , img/iphone-x-mockup@3x.png 3x " alt="Скрин iphone x">
-				</div> 
-			</section>
-			<section>
-				<div class="home-second-sect">
-        	<span class="items_title">Features</span>
-        	<h2>Built and customized for your habits</h2>
-					<p class="p-h2">ShowTrackr’s built-in machine learning and context-aware features guarantee that all the notifications and 
-						 recommendations are always delivered to you in the perfect moment.</p>
-				</div>
-        <div class="unique-selling-proposition">
-					<div>
-						<img class="form" id="square" src="icon/triangle.svg" alt="Иконка Automated tracking">
-						<h4>Automated tracking</h4>
-						<p class="p-h4">Track your favorite shows automatically without switching between apps.</p>
-						<button class="link">Learn more</button>
-					</div>
-					<div>
-						<img id="square" src="icon/shape.svg" alt="Иконка Machine learning" width="100"></li>
-						<h4>Machine learning</h4>
-						<p class="p-h4">Get recommendations like never before, which are truly customized for your taste.</p>
-						<button class="link">Learn more</button>
-					</div>
-					<div>
-						<img id="square" src="icon/smart-notifications.svg" alt="Smart notifications" width="100"></li>
-						<h4>Smart notifications</h4>
-						<p class="p-h4">Receive smart notifications exactly at the right moments when you need them.</p>
-						<button class="link">Learn more</button>
-					</div>
-				</div>
-				<ul class="movie-covers-list">
-          			<li><img src="img/black_mirror.png" alt="black mirror" width="200"></li>
-          			<li><img src="img/stranger_things.png" alt="stranger things" width="200"></li>
-          			<li><img src="img/westworld.png" alt="westworld" width="200"></li>
-          			<li><img src="img/house_of_cards.png" alt="house of cards" width="200"></li>
-          			<li><img src="img/game_of_thrones.png" alt="game of thrones" width="200"></li>
-          			<li><img src="img/murde.png" alt="murde" width="200"></li>
-				</ul>
-			</section>
-			<section>
-				<div>
-					<h3>Easy-to-use interfaces on every platform</h3>
-					<p>Since most of our features work in a completely automated way, you will mainly use our apps to
-						 discover new TV shows recommended for you and discuss the most interesting episodes with like-minded people.</p>
-				</div>
-				<div>
-					<div>
-						<img src="icon/dashboard.svg" alt="dashboard">
-						<p>Customized Dashboard</p>
-					</div>
-					<div>
-						<img src="icon/day&night.svg" alt="day&night">
-						<p>Customized Dashboard</p>
-					</div>
-					<div>
-						<img src="icon/chat.svg" alt="chat">
-						<p>Customized Dashboard</p>
-					</div>
-				</div>
-				<div>
-					<img iphone-x-mockup src="img/iphone-x-mockup.svg" alt="Картинка с iphone " width="400">
-					<img web-app-mockup src="img/web-app-mockup.png" alt="Скрин вебсайта" width="700">  
+						<div>
+							<h5 class="h5">Compatible with</h5>
+								<ul class="home-first-sect-icons-list">
+									<li><img class="home-first-sect-icons-items" src="icon/netflix.svg" alt="логотип netflix"></li>
+									<li><img class="home-first-sect-icons-items" src="icon/apple.svg" alt="логотип apple"></li>
+									<li><img class="home-first-sect-icons-items" src="icon/android.svg" alt="логотип android"></li>
+									<li><img class="home-first-sect-icons-items" src="icon/windows.svg" alt="логотип windows"></li>
+									<li><img class="home-first-sect-icons-items" src="icon/synology.svg" alt="логотип synology"></li>
+								</ul>
+						</div>
+					</div> 
+					<img class="home-first-sect-right" src="img/iphone-x-mockup.png" srcset="img/iphone-x-mockup@2x.png 2x , 
+					img/iphone-x-mockup@3x.png 3x" alt="Скрин iphone x">
 				</div>
 			</section>
 			<section class="home-second-sect">
-				<div>
-					<span class="items_title">Get Started</span>
-					<h2>Start tracking your TV shows for free </h2>
-					<p class="p-h2">In order to start tracking your TV shows, all you have to do is enter your email address. 
-						Everything else will be taken care of by us. All you have to do is sit back, relax and enjoy your TV shows.</p>
-				</div>
-				<div>
-					<input type="email" placeholder=your@email.com>
-					<button>Start tracking</button>
-				</div>
+            <div class="container-home-second-sect">
+               <div class="home-second-sect-top">
+                  <h4>Features</h4>
+                  <h2>Built and customized for your habits</h2>
+                  <p class="p-h2">ShowTrackr’s built-in machine learning and context-aware features guarantee that all the notifications and 
+                                  recommendations are always delivered to you in the perfect moment.</p>
+               </div>
+               <div class="home-second-sect-bottom">
+                  <div class="container-home-second-sect-bottom">
+                     <div class="form-square" id="purple">
+                        <img src="icon/triangle.svg" alt="Иконка Automated tracking">
+                     </div>
+                     <h4 class="h4-bold">Automated tracking</h4>
+                     <p class="p-h4">Track your favorite shows automatically without switching between apps.</p>
+                     <button class="link">Learn more</button>
+                  </div>
+                  <div class="container-home-second-sect-bottom">
+                     <div class="form-square" id="orange">
+                        <img src="icon/shape.svg" alt="Иконка Machine learning">
+                     </div>
+                     <h4 class="h4-bold">Machine learning</h4>
+                     <p class="p-h4">Get recommendations like never before, which are truly customized for your taste.</p>
+                     <button class="link">Learn more</button>
+                  </div>
+                  <div class="container-home-second-sect-bottom">
+                     <div class="form-square" id="blue">
+                        <img src="icon/smart-notifications.svg" alt="Smart notifications">
+                     </div>
+                     <h4 class="h4-bold">Smart notifications</h4>
+                     <p class="p-h4">Receive smart notifications exactly at the right moments when you need them.</p>
+                     <button class="link">Learn more</button>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="movie-covers">
+            <ul class="movie-covers-list">
+               <li class="movie-covers-items"><img src="img/black_mirror.png" srcset="img/black_mirror@2x.png 2x, img/black_mirror@3x.png 3x" 
+                        alt="black mirror"></li>
+               <li class="movie-covers-items"><img src="img/stranger_things.png" srcset="img/stranger_things@2x.png 2x, img/stranger_things@3x.png 3x" 
+                        alt="stranger things"></li>
+               <li class="movie-covers-items"><img src="img/westworld.png" srcset="img/westworld@2x.png 2x, img/westworld@3x.png 3x" 
+                        alt="westworld"></li>
+               <li class="movie-covers-items"><img src="img/house_of_cards.png" srcset="img/house_of_cards@2x.png 2x, img/house_of_cards@3x.png 3x" 
+                        alt="house of cards"></li>
+               <li class="movie-covers-items"><img src="img/game_of_thrones.png" srcset="img/game_of_thrones@2x.png 2x, img/game_of_thrones@3x.png 3x" 
+                        alt="game of thrones"></li>
+               <li class="movie-covers-items"><img src="img/flash.png" srcset="img/flash@2x.png 2x, img/flash@3x.png 3x" 
+                        alt="flash"></li>
+               <li class="movie-covers-items"><img src="img/murde.png" srcset="img/murde@2x.png 2x, img/murde@3x.png 3x" 
+                        alt="murde"></li>
+               </ul>
+         </section>
+			<section class="home-third-sect">
+            <div class="container-home-third-sect">
+               <div class="home-third-sect-left">
+                  <h3>Easy-to-use interfaces on every platform</h3>
+                  <p class="p-h3">Since most of our features work in a completely automated way, you will mainly use our apps to
+                                 discover new TV shows recommended for you and discuss the most interesting episodes with like-minded 
+                                 people.</p>
+                  <ul class="home-third-sect-list">
+                     <li class="home-third-sect-items">
+                        <img src="icon/dashboard.svg" alt="dashboard">
+                        <p class="p-icons-list">Customized Dashboard</p>
+                     </li>
+                     <li class="home-third-sect-items">
+                        <img class="icon-opacity" src="icon/day-and-night.svg" alt="day and night">
+                        <p class="p-icons-list">Automatic Day & Night Modes</p>
+                     </li>
+                     <li class="home-third-sect-items">
+                        <img class="icon-opacity" src="icon/chat.svg" alt="chat">
+                        <p class="p-icons-list">Integrated Chat Platform</p>
+                     </li>
+                  </ul>
+               </div>
+               <div class="home-third-sect-right">
+                  <img class="home-third-sect-right-back" src="img/web-app-mockup.png" srcset="img/web-app-mockup@2x.png 2x, 
+                              img/web-app-mockup@3x.png 3x" alt="Скрин вебсайта"> 
+                  <img class="home-third-sect-right-front" src="img/iphone-x-mockup.png" srcset="img/iphone-x-mockup@2x.png 2x , 
+                              img/iphone-x-mockup@3x.png 3x" alt="Скрин iphone x">
+               </div>
+            </div> 
+         </section>
+         <section class="home-fourth-sect">
+            <div class="container-home-fourth-sect">
+               <div class="home-fourth-sect-left">
+                  <h4>Community</h4>
+                  <h3>We believe in the power of community</h3>
+                  <p class="p-white">Our goal is to create a product and service that you’re satisfied with and use it every day. This is why 
+                     we’re constantly working on our services to make it better every day and really listen to what our users 
+                     has to say.</p>
+                  <button class="button-heigth42">Read more testimonials</button>
+               </div>
+               <div class="home-fourth-sect-right">
+                  
+               </div>
+            </div>
+
+         </section>
+			<section class="home-second-sect">
+            <div class="container-home-second-sect">
+               <div class="home-second-sect-top">
+					   <h4>Get Started</h4>
+					   <h2>Start tracking your TV shows for free </h2>
+					   <p class="p-h2">In order to start tracking your TV shows, all you have to do is enter your email address. 
+						                Everything else will be taken care of by us. All you have to do is sit back, relax and enjoy your TV shows.</p>
+               </div>
+               <form class="field" id="field-center">
+                  <div class="outlined-field">
+                     <label class="label">Email</label>
+                     <input class="input" type="email" placeholder="your@email.com">
+                  </div>
+                  <button class="button-field">Start tracking</button>
+               </form> 
+            </div>  
 			</section>
 		</main>
 		<footer>
-			<ul class="social-networks-list">
-				<li><img src="icon/twitter.svg" alt="twitter" width="100"></li>
-				<li><img src="icon/facebook.svg" alt="twitter" width="100"></li>
-				<li><img src="icon/youtube.svg" alt="twitter" width="100"></li>
-			</ul>
-			<span>Copyright 2018 All rights reserved — Designed by Daniel Korpai</span>
+         <div class="container-footer">
+            <ul class="social-networks-list">
+               <li class="social-network-items"><img src="icon/twitter.svg" alt="twitter"></li>
+               <li class="social-network-items"><img src="icon/facebook.svg" alt="twitter"></li>
+               <li class="social-network-items"><img src="icon/youtube.svg" alt="twitter"></li>
+            </ul>
+            <span class="copyright-text">Copyright 2018 All rights reserved — Designed by Daniel Korpai</span>
+         </div>
 		</footer> 
   </body>
 </html>
